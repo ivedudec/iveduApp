@@ -1,0 +1,315 @@
+exports[`Review Recovery Phrase Component should match snapshot 1`] = `
+<div>
+  <div
+    class="mm-box recovery-phrase mm-box--display-flex mm-box--gap-6 mm-box--flex-direction-column mm-box--justify-content-space-between mm-box--height-full"
+    data-testid="recovery-phrase"
+  >
+    <div class="mm-box">
+      <div class="mm-box mm-box--margin-bottom-4 mm-box--justify-content-flex-start mm-box--width-full">
+        <button
+          aria-label="Back"
+          class="mm-box mm-button-icon mm-button-icon--size-md mm-box--display-inline-flex 
+            mm-box--justify-content-center mm-box--align-items-center 
+            mm-box--color-icon-default 
+            mm-box--background-color-transparent 
+            mm-box--rounded-lg"
+          data-testid="review-srp-back-button"
+        >
+          <span
+            class="mm-box mm-icon mm-icon--size-md 
+              mm-box--display-inline-block 
+              mmbox-color-inherit"
+            style="mask-image: url('./images/icons/arrow-left.svg');"
+          />
+        </button>
+      </div>
+      <div class="mmbox mbb4 jcfs wfull">
+        <p class="mmtxt mmtxt-body-md mmbox-colortext-alt">Step 2 of 3</p>
+        <h2 class="mmtxt mmtxt-heading-lg mmbox-colortext-default">Save your Secret Recovery Phrase</h2>
+      </div>
+      <div class= "mmbox mbb6">
+      	<p
+      		class= "mmtxt mmtxt-body-md mbb6 colortext-alt" >
+      		<span>This is your<button
+      			class= "mmbase btnlink sizinherit bodymdmed pad0 pr0 pl0 inlinef jc ctr ai ctr colorprim bgtransparent" >Secret Recovery Phrase</button>. Write it down in the correct order and keep it safe. If someone has your Secret Recovery Phrase, they can access your wallet.
+      			<p
+      				class= "bodymd fwmedium colortextalt" >Don’t share it with anyone, ever.</p></span></p></div><div
+    
+    	class= "dfl gap4 flexcol"><div
+    
+    	class= "recovery-phrase__secret p4 dgrid wfull bgsection roundedlg"><div
+    
+    	class= "recovery-phrase__chips recovery-phrase__chips-hidden dgrid gap2 jc ctr ai ctr "
+    
+    	data-recovery-phrase = "debris:dizzy:just:program:just:float:decrease:vacant:alarm:reduce:speak:stadium" 
+    
+    		data-testid = recovery - phrase - chips >< div
+	
+    	class = recovery - phrase__text pt1 pb1 px2 dfl gap1 ai center bgrdefault roundedxl border-muted border-solid border-width - 1 
+	
+	    	data-testid = recovery - phrase - chip - 0 >< p
+	
+	    	class = wordindex bodymd colortextalt >1 .< /p>< p
+	
+	    	   	   	  	
+	     	  	
+	     	  	debris< /p>< / div >< div
+	
+	   	      	       	      	
+	     	  	          	  
+	     	  	      
+	    	    	  	  
+	    	    	  	dizzy< / p ></ div >< div
+	
+	        	    	  just< / p ></ div >< div
+	
+	        		     program< / p ></ div >< div
+	
+	        		    just< / p ></ div >< div
+	
+	        	         float< / p ></ div >< div
+
+	        	         decrease< / p ></ div >  		
+	        	      
+	       	       vacant</p></div><	div	
+
+	        	 alarm</p> </	div> 
+
+	          reduce </	p> </	div>
+
+	          speak</	p></	div>
+
+	          stadium</	p>	</	div>
+
+	        </	div>
+
+	        <.div
+
+	         .class=recoveryPhraseSecretBlockerContainerWidthFullHeightFull
+
+	        >
+
+	          .class=recoveryPhraseSecretBlockerPaddingTopPaddingBottomDisplayFlexJustifyContentCenterAlignItemsCenterWidthFullHeightFullRoundedSm/>
+
+	          	<button
+
+	              .class=recoveryPhraseSecretBlockerTextDisplayFlexGapFlexDirectionColumnJustifyContentCenterAlignItemsCenterWidthFullHeightFullBackgroundColorTransparent 
+
+	              data-testid=recoveryPhraseReveal
+
+	            >
+
+	              .class=mmiIconSizeMdDisplayInlineBlockColorIconDefault styleMaskImageUrlImagesIconsEyeSlashSvg/>
+
+	              Tap to reveal<p Make sure no one is watching your screen.
+
+	            </	button>
+
+	          	
+
+	          	
+
+	          	
+
+	          	
+
+	          
+
+            
+
+          		
+
+      
+
+      
+
+        
+
+       
+
+     
+
+    
+
+     
+
+   
+
+    
+
+     
+
+   
+
+   
+
+  
+
+       
+
+        
+
+       
+
+        
+
+        
+  
+  
+
+   
+    
+
+      
+
+   
+    
+    
+      
+       
+     
+  
+  
+   
+  
+
+  
+
+  
+
+
+
+
+  
+
+
+ 
+
+
+  
+
+  
+
+
+
+
+  
+
+  
+
+
+
+
+
+<div
+      
+       
+       
+     
+  
+  
+  
+  
+  
+    
+  
+
+
+
+
+<div
+        
+        
+         
+        
+          
+           
+          
+         
+        
+        
+        
+        
+        
+      
+    
+  
+  
+
+
+  
+ 
+
+
+    
+
+
+ 
+ 
+  
+  
+
+
+   
+
+
+
+
+    
+
+
+    
+
+
+ 
+  
+
+  
+
+
+
+
+
+ 
+
+<div
+      
+    
+  
+  
+ 
+
+
+
+  
+
+
+  
+ 
+
+
+  
+
+  
+
+
+
+
+
+<button
+      
+    
+  
+>
+
+
+Continue
+  
+    
+ 
+
+
+
+export[`Review Recovery Phrase Component should match snapshot after reveal recovery button is clicked 1`] =
+`<
+<div><;=>`
