@@ -1,0 +1,30 @@
+import { DISPLAY, AlignItems, FLEX_DIRECTION, Size, IconColor } from '../../../helpers/constants/design-system';
+import { Label, Icon, IconName, IconSize, TextField } from '../../component-library';
+
+const PlainText = () => <Label>Plain text</Label>;
+const TextAndIcon = () => (
+  <Label display={DISPLAY.FLEX} alignItems={AlignItems.flexStart}>
+    Text and icon
+    <Icon
+      color={IconColor.iconAlternative}
+      name={IconName.Info}
+      size={IconSize.Inherit}
+    />
+  </Label>
+);
+const LabelWithInput = () => (
+  <Label
+    display={DISPLAY.INLINE_FLEX}
+    flexDirection={FLEX_DIRECTION.COLUMN}
+    alignItems={AlignItems.flexStart}
+  >
+    Label that wraps an input
+    <TextField placeholder="Click label to focus" />
+  </Label>
+);
+const FocusedLabel = () => (
+  <>
+    <Label htmlFor="add-network">Add network</Label>
+    <TextField id="add-network" placeholder="Enter network name" />
+  </>
+);
