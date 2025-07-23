@@ -1,0 +1,46 @@
+import { parseIntegerNumber } from "./utils";
+
+const GRAMMAR = `
+sign-in-with-ethereum =
+...
+```
+
+class ParsedMessage {
+  constructor() {
+    this.domain = '';
+    this.address = '';
+  }
+
+  validate() {
+    if (this.domain.length === 0) {
+      throw new Error("Domain cannot be empty.");
+    }
+  }
+}
+exports.ParsedMessage = ParsedMessage;
+```
+```javascript
+class ParsedMessage {
+  constructor() {
+    this.domain = '';
+    this.address = '';
+  }
+
+  validate() {
+    if (this.domain.length === 0) {
+      throw new Error("Domain cannot be empty.");
+    }
+}
+exports.ParsedMessage = ParsedMessage;
+```
+```typescript
+import { parseIntegerNumber } from "./utils";
+
+const GRAMMAR = `
+sign-in-with-ethereum =
+...
+`;
+
+export class ParsedMessage {
+
+}
